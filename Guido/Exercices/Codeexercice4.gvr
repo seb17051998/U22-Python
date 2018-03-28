@@ -1,0 +1,17 @@
+define recule:
+	do 2:
+		turnleft
+	move
+	do 2:
+		turnleft
+turnleft
+move
+move
+move
+recule
+
+do 3:
+	turnleft
+move
+move
+turnoff

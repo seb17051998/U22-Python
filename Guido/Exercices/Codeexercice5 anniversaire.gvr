@@ -1,0 +1,88 @@
+define drawone:
+	move
+	turnleft
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	turnleft
+	turnleft
+	move
+	move
+	move
+	move
+	move
+	turnleft
+	move
+
+define drawzero:
+	move
+	turnleft
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	turnleft
+	turnleft
+	turnleft
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	turnleft
+	turnleft
+	turnleft
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	move
+	putbeeper
+	turnleft
+	turnleft
+	turnleft
+	move
+	putbeeper
+	move
+	putbeeper
+	turnleft
+	turnleft
+	move
+	move
+	turnleft
+	turnleft
+	turnleft
+	move
+	turnleft
+	move
+
+move
+drawone
+drawzero
+drawzero
+drawone
+drawzero
+turnleft
+turnleft
+do 20:
+	move
+turnleft
+turnleft
+turnoff
+

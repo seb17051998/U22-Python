@@ -1,0 +1,83 @@
+define turnright:
+	do 3:
+		turnleft
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnleft
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while front_is_blocked:
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnleft
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnleft
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnleft
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnleft
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while front_is_blocked:
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+	turnright
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnleft
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+do 2:
+	move
+turnright
+while front_is_clear:
+	move
+turnright
+while front_is_clear:
+	move
+turnleft
+move
+pickbeeper
+turnleft
+turnleft
+move
+turnoff

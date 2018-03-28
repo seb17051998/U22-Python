@@ -1,0 +1,58 @@
+define turnright:
+	do 3:
+		turnleft
+
+move
+move
+do 7:
+	move
+	pickbeeper
+turnright
+move 
+turnright
+do 7:
+	pickbeeper
+	move
+turnleft
+move 
+turnleft
+do 7:
+	move
+	pickbeeper
+turnright
+move 
+turnright
+do 7:
+	pickbeeper
+	move
+turnleft
+move 
+turnleft
+do 7:
+	move
+	pickbeeper
+turnright
+move 
+turnright
+do 7:
+	pickbeeper
+	move
+turnleft
+move 
+turnleft
+do 7:
+	move
+	pickbeeper
+turnleft
+
+do 9:
+	move
+turnleft
+do 8:
+	move
+turnleft
+turnleft
+while any_beepers_in_beeper_bag:
+	putbeeper
+move
+turnoff

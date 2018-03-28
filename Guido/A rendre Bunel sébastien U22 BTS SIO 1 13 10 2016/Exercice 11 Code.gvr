@@ -1,0 +1,45 @@
+define turnright:
+	do 3:
+		turnleft
+turnright
+putbeeper
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while left_is_blocked:
+	move
+if left_is_clear:
+	putbeeper
+	move
+while left_is_blocked:
+	move
+if left_is_clear:
+	putbeeper
+	move
+while front_is_blocked:
+	turnright
+while left_is_blocked:
+	move
+if left_is_clear:
+	putbeeper
+	move
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while left_is_blocked:
+	move
+if left_is_clear:
+	putbeeper
+	move
+while front_is_clear:
+	move
+while front_is_blocked:
+	turnright
+while not_next_to_a_beeper:
+	move
+turnleft
+pickbeeper
+move
+turnoff

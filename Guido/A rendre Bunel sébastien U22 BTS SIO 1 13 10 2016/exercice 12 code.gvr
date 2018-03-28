@@ -1,0 +1,52 @@
+do 6:
+	move
+	pickbeeper
+	
+turnleft
+do 5:
+	move
+	pickbeeper
+turnleft
+do 5:
+	move
+	pickbeeper
+turnleft
+do 3:
+	move
+	pickbeeper
+move
+turnleft
+do 4:
+	move
+	pickbeeper
+turnleft
+move
+pickbeeper
+move
+move
+turnleft
+pickbeeper
+move
+pickbeeper
+move
+pickbeeper
+turnleft
+move
+pickbeeper
+move
+pickbeeper
+turnleft
+move
+pickbeeper
+turnleft
+turnleft
+move
+move
+pickbeeper
+turnleft
+turnleft
+turnleft
+move
+pickbeeper
+move
+turnoff

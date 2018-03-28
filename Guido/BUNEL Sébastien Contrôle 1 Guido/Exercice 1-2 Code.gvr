@@ -1,0 +1,27 @@
+define turnright:
+	do 3:
+		turnleft
+
+while front_is_blocked:
+	turnright
+move
+while next_to_a_beeper:
+	do 5:
+		pickbeeper
+		move
+turnleft
+do 8:
+	move
+turnleft
+do 2:
+	move
+turnleft
+while front_is_clear:
+	move
+turnright
+if any_beepers_in_beeper_bag:
+	do 10:
+			putbeeper
+			move
+turnleft
+turnoff

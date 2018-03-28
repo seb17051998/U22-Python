@@ -1,0 +1,24 @@
+move
+turnleft
+move
+do 4:
+	pickbeeper
+turnleft
+move
+turnleft
+do 3:
+	move
+turnleft
+do 4:
+	move
+turnleft
+do 4:
+	move
+do 4:
+	putbeeper
+do 2:
+	turnleft
+move
+do 2:
+	turnleft
+turnoff

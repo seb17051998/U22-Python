@@ -1,0 +1,25 @@
+move
+move
+pickbeeper
+move
+pickbeeper
+move
+move
+pickbeeper
+move
+move
+pickbeeper
+move
+pickbeeper
+move
+pickbeeper
+move
+move
+pickbeeper
+do 2:
+	turnleft
+do 11:
+	move
+do 2:
+	turnleft
+turnoff

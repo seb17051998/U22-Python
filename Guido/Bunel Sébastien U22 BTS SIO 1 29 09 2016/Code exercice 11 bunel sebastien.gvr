@@ -1,0 +1,45 @@
+putbeeper
+while front_is_clear:
+	move
+turnleft
+while front_is_clear:
+	move
+turnleft
+while front_is_clear:
+	move
+turnleft
+turnleft
+turnleft
+while front_is_clear:
+	move
+turnleft
+turnleft
+turnleft
+while front_is_clear:
+	move
+turnleft
+turnleft
+turnleft
+while front_is_clear:
+	move
+turnleft
+while front_is_clear:
+	move
+turnleft
+while front_is_clear:
+	move
+turnleft
+while front_is_clear:
+	move
+turnleft
+while front_is_clear:
+	move
+turnleft
+turnleft
+turnleft
+while front_is_clear:
+	move
+turnleft
+while not_next_to_a_beeper:
+	move
+turnoff

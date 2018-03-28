@@ -1,0 +1,182 @@
+define turnright:
+	do 3:
+		turnleft
+
+move
+while next_to_a_beeper:	
+	pickbeeper
+while not_next_to_a_beeper:
+	move
+while next_to_a_beeper:	
+	pickbeeper
+while not_next_to_a_beeper:
+	move
+	if front_is_blocked:
+		turnleft
+while next_to_a_beeper:	
+	pickbeeper
+while not_next_to_a_beeper:
+	move
+	if front_is_blocked:
+		turnleft
+while next_to_a_beeper:	
+	pickbeeper
+while not_next_to_a_beeper:
+	move
+	if front_is_blocked:
+		turnleft
+		move
+while next_to_a_beeper:	
+	pickbeeper
+while not_next_to_a_beeper:
+	move
+	if front_is_blocked:
+		turnleft
+		move
+while next_to_a_beeper:	
+	pickbeeper
+while not_next_to_a_beeper:
+	move
+	if front_is_blocked:
+		turnleft
+while next_to_a_beeper:	
+	pickbeeper
+while not_next_to_a_beeper:
+	move
+	if front_is_blocked:
+		turnleft
+pickbeeper
+turnleft
+do 4:
+	move
+turnleft
+while not_next_to_a_beeper:
+	move
+	if front_is_blocked:
+		turnleft
+while next_to_a_beeper:	
+	pickbeeper
+do 2:
+	turnleft
+move
+turnleft
+move
+while next_to_a_beeper:	
+	pickbeeper
+move
+while next_to_a_beeper:	
+	pickbeeper
+move
+while next_to_a_beeper:	
+	pickbeeper
+do 6:
+	move
+turnright
+move
+pickbeeper
+do 5:
+	move
+
+turnright
+move
+do 2:
+	pickbeeper
+move
+move
+move
+turnright
+while not_next_to_a_beeper:
+	move
+	if next_to_a_beeper:
+		pickbeeper
+do 4:
+	pickbeeper
+turnleft
+move
+do 5:
+	move
+turnleft
+while not_next_to_a_beeper:
+	move
+pickbeeper
+move
+move
+turnright
+move
+while next_to_a_beeper:	
+	pickbeeper
+move
+turnleft
+while not_next_to_a_beeper:
+	move
+while next_to_a_beeper:	
+	pickbeeper
+turnleft
+move
+while next_to_a_beeper:	
+	pickbeeper
+turnleft
+move
+while next_to_a_beeper:	
+	pickbeeper
+turnright
+move
+turnright
+move
+while next_to_a_beeper:	
+	pickbeeper
+move
+turnright
+move
+pickbeeper
+turnleft
+do 2:
+	move
+turnleft
+while not_next_to_a_beeper:
+	move
+while next_to_a_beeper:	
+	pickbeeper
+do 3:
+	move
+turnright
+while not_next_to_a_beeper:
+	move
+while next_to_a_beeper:	
+	pickbeeper
+do 2:
+	turnleft
+while not_next_to_a_beeper:
+	move
+while next_to_a_beeper:	
+	pickbeeper
+turnright
+move
+while next_to_a_beeper:	
+	pickbeeper
+turnright
+move
+while next_to_a_beeper:	
+	pickbeeper
+turnleft
+move
+while next_to_a_beeper:	
+	pickbeeper
+while front_is_clear:
+	move
+turnright
+do 9:
+	move
+while any_beepers_in_beeper_bag:
+	putbeeper
+turnright
+while front_is_clear:
+	move
+turnright
+while front_is_clear:
+	move
+turnright
+turnoff
+	
+
+			
